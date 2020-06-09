@@ -1,0 +1,19 @@
+
+
+.child{
+    display: flex;
+    justify-content: center;
+      padding-top: 10%;
+    
+}
+.content ul{
+    margin: 0%;
+    list-style-type: none;
+    padding: 0%;
+}
+.content li{
+padding: 10px;
+display: flex;
+justify-content: center;
+border-bottom: 1px solid #ccc;
+}
