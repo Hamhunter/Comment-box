@@ -1,10 +1,8 @@
 
 .box {
-
-   margin: 200px auto 0px auto;
+   margin: 20px auto;
     border: 2px solid  black;
-   margin:2rem;
-   padding: 0.5rem;
+   padding: 20px;
    width:550px;
 
 }
