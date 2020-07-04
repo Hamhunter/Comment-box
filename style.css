@@ -1,9 +1,11 @@
 
-.border{
-   margin: auto;
-    border: 0.5rem outset pink;
+.box {
+
+   margin: 200px auto 0px auto;
+    border: 2px solid  black;
    margin:2rem;
    padding: 0.5rem;
+   width:550px;
 
 }
 .content ul{

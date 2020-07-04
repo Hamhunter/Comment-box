@@ -7,7 +7,8 @@ function printcomment() {
         <p class="comments">${toprint}
         </p>
         
-        </li>`;
+        </li>
+        <hr>`;
     lists.insertAdjacentHTML("beforeend", listitems);
     input.value = "";
   }

@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Titillium+Web"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>comment here</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>comment here</title>
-</head>
+  <body>
+    <!-- card -->
+    <div class="box">
+      <div class="box-items">
+        <label>name:</label>
+        <input type="text" id="" />
+        <label>email:</label>
+        <input type="email" name="" id="" />
+        <label>comment:</label>
+        <textarea
+          style="margin-top: 5px; margin-left: 5px;"
+          placeholder="enter comment here"
+          class="row"
+          name=""
+          id="input"
+          cols="30"
+          rows="2"
+        ></textarea>
+      </div>
 
-<body>
- 
-  <!-- card -->
-  <div class="border"> 
-    <div class="child">
-      <input type="text" id="" />
-      <input type="email" name="" id="">
-      <textarea style="margin-top: 5px; margin-left: 5px;" class="row" name="" id="input" cols="30" rows="2"></textarea>
       <div class="btn-color">
         <button onclick="printcomment()">comment</button>
       </div>
+
+      <div class="content">
+        <ul id="list">
+          <hr />
+          <li>
+            <p class="comments"></p>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="content">
-      <ul id="list">
-        <li>
-          <p class="comments">
-
-          </p>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</body>
-<script src="script.js"></script>
-
+  </body>
+  <script src="script.js"></script>
 </html>
